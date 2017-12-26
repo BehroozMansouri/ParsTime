@@ -1,0 +1,155 @@
+﻿
+روز Past#201
+روز Next#201
+چند روز Past#202
+چند روز Next#202
+Num روز Past#203
+Num روز Next#203
+DP Past#204
+DP Next#204
+چند DP Past#205
+چند DP Next#205
+Num DP Past#206
+Num DP Next#206
+هفته Past#207
+هفته Next#207
+چند هفته Past#208
+چند هفته Next#208
+Num هفته Past#209
+Num هفته Next#209
+RT هفته Past#210
+RT هفته Next#210
+RT هفته جاری#211
+RT این هفته#211
+RT همین هفته#211
+RT هفته#211
+هفته جاری#212
+این هفته#212
+همین هفته#212
+RT Num هفته Next#241
+RT Num هفته Past#241
+ماه Past#213
+ماه Next#213
+چند ماه Past#214
+چند ماه Next#214
+Num ماه Past#215
+Num ماه Next#215
+RT ماه جاری#216
+RT این ماه#216
+RT ماه#216
+RT همین ماه#216
+ماه جاری#217
+این ماه#217
+همین ماه#217
+RT ماه Past#240
+RT ماه Next#240
+RT Num ماه Next#242
+RT Num ماه Past#242
+فصل Past#218
+فصل Next#218
+RT فصل جاری#219
+RT این فصل#219
+RT فصل#219
+RT همین فصل#219
+فصل جاری#220
+این فصل#220
+همین فصل#220
+سال Past#221
+سال Next#221
+سال Past میلادی#222
+سال Next میلادی#222
+چند سال Past#223
+چند سال Next#223
+Num سال Past#224
+Num سال Next#224
+RT سال جاری#225
+RT این سال#225
+RT سال#225
+RT همین سال#225
+RT سال Past#241
+RT سال Next#241
+RT Num سال Next#237
+RT Num سال Past#237
+RY#226
+RT RY#227
+دهه Past#228
+دهه Next#228
+چند دهه Past#229
+چند دهه Next#229
+Num دهه Past#230
+Num دهه Next#230
+RT دهه جاری#231
+RT این دهه#231
+RT دهه Past#232
+RT دهه Next#232
+قرن Past#233
+قرن Next#233
+چند قرن Past#234
+چند قرن Next#234
+Num قرن Past#235
+Num قرن Next#235
+RT قرن Past#236
+RT قرن Next#236
+Num Month سال Past#245
+Num Month سال Next#245
+Num Month Num سال Past#246
+Num Month Num سال Next#246
+Month سال Past#247
+Month سال Next#247
+Month Num سال Past#248
+Month Num سال Next#248
+Month ماه Num سال Past#249
+Month ماه Num سال Next#249
+Day Next#250
+Day Past#250
+Day هفته Next#251
+Day هفته Past#251
+Day Num هفته Next#252
+Day Num هفته Past#252
+Num ماهه RT سال Next#253
+Num ماهه RT سال Past#253
+Num ماهه RT Num سال Past#254
+Num ماهه RT Num سال Next#254
+Num ماهه RT RY#255
+نیمه Num سال Past#256
+نیمه Num سال Next#256
+نیم سال Num سال Next#257
+نیم سال Num سال Prev#257
+نیمه Num RY#258
+نیم سال Num RY#259
+RD#238
+RD Day#238
+RD Day Num Month#238
+RD Day Num Month Num#238
+RD Day Num Month سال Num#238
+RD Day Num Month ماه#238
+RD Day Num Month ماه Num#238
+RD Day Num Month ماه سال Num#238
+RD Day Num Month ماه سال Num شمسی#238
+RD Day Num Month ماه سال Num قمری#238
+RD Day Num Month ماه سال Num میلادی#238
+RD Day Num Month ماه سال Num هجری شمسی#238
+RD Day Num از Season#238
+RD Num روز از Season#238
+RD Day Num از Season سال Num#238
+RD Day Num از Season Num#238
+Num Month RY#239
+Num Month ماه RY#242
+Month RY#243
+Month ماه RY#244
+RT Month سال Past#260
+RT Month سال Next#260
+RT Month RY#261
+RT Month ماه سال Past#260
+RT Month ماه سال Next#260
+RT Month ماه RY#261
+RD Num Month#262
+RD Num Month ماه#263
+RT سال جاری#264
+RT سال جاری میلادی#265
+Next از Num روز#266
+Next از Num DP#267
+Next از Num ماه#268
+Next از Num سال#269
+Num ماه Month سال جاری#270
+Num Month ماه سال جاری#271

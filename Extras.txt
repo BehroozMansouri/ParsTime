@@ -1,0 +1,56 @@
+﻿Date
+روزهای RT سال Num#17
+روزهای RT سال Num شمسی#17
+روزهای RT سال Num قمری#18
+روزهای RT سال Num میلادی#19
+RT روز Season#31
+RT روز Season Num#32
+RT روزهای فصل Season#33
+RT روزهای Season Num#34
+RT روز Month ماه#35
+RT روز Month#35
+RT روز Month ماه سال Num#36
+RT روز Month Num#36
+RT روزهای Month Num#37
+
+Num ماهه RT سال Num#36
+Num ماهه Num سال Num#36
+
+
+
+
+ساعت Num Day Next#410
+ساعت Num DP Day Next#411
+ساعت Num Day Prev#410
+ساعت Num DP Day Prev#411
+ساعت T Day Prev#422
+ساعت T DP Day Prev#423
+ساعت T Day Next#422
+ساعت T DP Day Next#423
+Num دقیقه مانده به Num Day Next#412
+Num دقیقه مانده به Num Day Prev#412
+Num دقیقه مانده به Num DP Day Next#432
+Num دقیقه مانده به Num DP Day Prev#432
+Num دقیقه به Num Day Next#436
+Num دقیقه به Num Day Prev#436
+Num دقیقه به Num DP Day Next#437
+Num دقیقه به Num DP Day Prev#437
+
+
+ساعت یک ربع به Num DP Day Next#462
+ساعت یک ربع به Num DP Day Prev#462
+
+ساعت یک ربع به Num Day Next#458
+ساعت یک ربع به Num Day Prev#458
+
+ساعت Num  و نیم DP Day Next#454
+ساعت Num  و نیم DP Day Past#454
+
+ساعت Num  و نیم Day Next#450
+ساعت Num  و نیم Day Past#450
+
+ساعت Num  و ربع DP Day Next#446
+ساعت Num  و ربع DP Day Past#446
+
+ساعت Num  و ربع Day Next#441
+ساعت Num  و ربع Day Past#442
