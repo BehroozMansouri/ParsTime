@@ -10,7 +10,6 @@ import java.time.chrono.HijrahChronology;
 import java.time.chrono.HijrahDate;
 import java.util.Calendar;
 import java.util.Date;
-
 /**
  *
  * @author b.mansouri
