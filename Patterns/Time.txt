@@ -1,0 +1,54 @@
+﻿
+ساعت Num و Num دقیقه و Num ثانیه#401
+ساعت Num و Num دقیقه و Num ثانیه DP#402
+ساعت Num و Num دقیقه#462
+ساعت Num و Num دقیقه DP#463
+ساعت Num#403
+T#404
+ساعت T#405
+Num DP RD#406
+ساعت Num DP RD#407
+ساعت Num DP#408
+Num DP#409
+ساعت Num RD#410
+ساعت T RD#411
+ساعت T DP#412
+ساعت T DP RD#413
+T DP#414
+T DP RD#415
+ساعت Num Day#416
+ساعت Num DP Day#417
+ساعت T Day#418
+ساعت T DP Day#419
+Num دقیقه مانده به Num#426
+Num دقیقه مانده به Num DP#427
+Num دقیقه مانده به Num RD#428
+Num دقیقه مانده به Num DP RD#429
+Num دقیقه مانده به Num Day#430
+Num دقیقه مانده به Num DP Day#431
+Num دقیقه به Num#433
+Num دقیقه به Num DP#493
+Num دقیقه به Num RD#424
+Num دقیقه به Num DP RD#425
+Num دقیقه به Num Day#434
+Num دقیقه به Num DP Day#435
+ساعت Num  و ربع#438
+ساعت Num  و ربع RD#439
+ساعت Num  و ربع Day#440
+ساعت Num  و ربع DP#443
+ساعت Num  و ربع DP RD#444
+ساعت Num  و ربع DP Day#445
+ساعت Num  و نیم #447
+ساعت Num  و نیم RD#448
+ساعت Num  و نیم Day#449
+ساعت Num  و نیم DP#451
+ساعت Num  و نیم DP RD#452
+ساعت Num  و نیم DP Day#453
+ساعت یک ربع به Num#455
+ساعت یک ربع به Num RD#456
+ساعت یک ربع به Num Day#457
+ساعت یک ربع به Num DP#459
+ساعت یک ربع به Num DP RD#460
+ساعت یک ربع به Num DP Day#461
+DP روز Past Num Month Num#464
+روز Day Date ساعت Num DP#465
