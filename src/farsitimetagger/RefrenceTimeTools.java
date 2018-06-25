@@ -25,9 +25,21 @@ public class RefrenceTimeTools {
         c.setTime(sdf.parse(temp));
         c.add(Calendar.DATE, dayCount);
         temp = sdf.format(c.getTime());
-        return CalendarConvetor.GregorianToJalali(temp);  // dt is now the new date
+        return Utilities.GetNormalValue(CalendarConvetor.GregorianToJalali(temp));  // dt is now the new date
     }
+    
     public static String GetRefMonth (String refDate, int monthCount) throws ParseException
+    {
+        String temp = CalendarConvetor.JalaliToGregorian(refDate);
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+        Calendar c = Calendar.getInstance();
+        c.setTime(sdf.parse(temp));
+        c.add(Calendar.MONTH,monthCount);
+        temp = sdf.format(c.getTime());
+        return Utilities.GetNormalValue(CalendarConvetor.GregorianToJalali(temp));  // dt is now the new date
+    }
+    
+    public static String GetRefMonthOld (String refDate, int monthCount) throws ParseException
     {
         int yearToCalculate = monthCount/12;
         refDate = GetRefYear(refDate, yearToCalculate);
@@ -93,7 +105,6 @@ public class RefrenceTimeTools {
         } catch (ParseException ex) {
             Logger.getLogger(Utilities.class.getName()).log(Level.SEVERE, null, ex);
         }
-        //int t = Calendar.SATURDAY   
         return c.get(Calendar.DAY_OF_WEEK);
     }
     
@@ -132,6 +143,19 @@ public class RefrenceTimeTools {
         c.add(Calendar.DAY_OF_MONTH, 7*weeks);
         temp = sdf.format(c.getTime());
         return CalendarConvetor.GregorianToJalali(temp);  // dt is now the new date
+    }
+
+    static String GetRefWeekOfYear(String refDate) {
+        int year = Integer.valueOf(refDate.split("-")[0]);
+        int month = Integer.valueOf(refDate.split("-")[1]);
+        int day = Integer.valueOf(refDate.split("-")[2]);
+        int days=0;
+        if(month>6)
+           days = (month-1)*30+6+day;
+        else
+           days = (month-1)*31+day;
+        int week = (days/7)+1;
+        return year+"-"+"W"+week;
     }
     
 }

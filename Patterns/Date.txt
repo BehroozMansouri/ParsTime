@@ -94,3 +94,114 @@ Num Month سال Num قمری#41
 RT روزهای سال Num#43
 Num ماه Month Num#44
 Num ماه Month سال Num#45
+روز Past#101
+روز Next#102
+چند روز Past#103
+چند روز Next#104
+Num روز Past#105
+Num روز Next#106
+هفته Past#107
+هفته Next#108
+چند هفته Past#109
+چند هفته Next#110
+Num هفته Past#111
+Num هفته Next#112
+هفته جاری#113
+این هفته#113
+همین هفته#113
+ماه جاری#114
+این ماه#114
+همین ماه#114
+ماه جاری میلادی#115
+ماه Past#116
+ماه Next#117
+چند ماه Past#118
+چند ماه Next#119
+Num ماه Past#120
+Num ماه Next#121
+سال Past#122
+سال Next#123
+چند سال Past#124
+چند سال Next#125
+Num سال Past#126
+Num سال Next#127
+سال جاری#128
+همین سال#128
+این سال#128
+سال Past میلادی#129
+سال Next میلادی#130
+دهه جاری#131
+همین دهه#131
+این دهه#131
+دهه Past#132
+دهه Next#133
+چند دهه Past#134
+چند دهه Next#135
+Num دهه Past#136
+Num دهه Next#137
+قرن جاری#138
+همین قرن#138
+این قرن#138
+قرن Past#139
+قرن Next#140
+چند قرن Past#141
+چند قرن Next#142
+Num قرن Past#143
+Num قرن Next#144
+RT هفته Past#145
+RT هفته Next#146
+RT هفته جاری#147
+RT این هفته#147
+RT همین هفته#147
+RT هفته#147
+RT Num هفته Next#148
+RT Num هفته Past#149
+RT ماه جاری#150
+RT این ماه#150
+RT ماه#150
+RT همین ماه#150
+RT ماه Past#151
+RT ماه Next#152
+RT Num ماه Next#153
+RT Num ماه Past#154
+RT سال جاری#155
+RT این سال#155
+RT سال#155
+RT همین سال#155
+RT سال Past#156
+RT سال Next#157
+RT Num سال Next#158
+RT Num سال Past#159
+RT دهه جاری#160
+RT این دهه#160
+RT همین دهه#160
+RT دهه Past#161
+RT دهه Next#162
+RT قرن Past#163
+RT قرن Next#164
+RT قرن جاری#165
+RT این قرن#165
+RT همین قرن#165
+RY#166
+Month RY#167
+Month ماه RY#168
+RT RY#169
+RD#170
+RD Day#170
+RD Day Num Month#171
+RD Num Month#184
+RD Num Month ماه#184
+RD Day Num Month Num#172
+RD Day Num Month سال Num#173
+RD Day Num Month ماه#174
+RD Day Num Month ماه Num#175
+RD Day Num Month ماه سال Num#176
+RD Day Num Month ماه سال Num شمسی#176
+RD Day Num Month ماه سال Num قمری#177
+RD Day Num Month ماه سال Num میلادی#178
+RD Day Num Month ماه سال Num هجری شمسی#176
+RD Day Num از Season#179
+RD Num روز از Season#180
+RD Day Num از Season سال Num#181
+RD Day Num از Season Num#182
+Num Month#183

@@ -18,7 +18,7 @@ import java.util.Stack;
  * @author zahedi
  */
 public class Utilities {
-    
+    public static String ValueForSome = "3";
     static HashMap<String,Integer> map_MonthValue;
     static HashMap<String,String> map_SeasonValue;
     static HashMap<String,String> map_MonthCalendar;
@@ -123,7 +123,7 @@ public class Utilities {
     {
         return GetNormalValue(year,month,day,"J");
     }
-    
+
     public static String GetNormalValue(String year, String month, String day, String CalendarType)
     {
         String d = day;
@@ -296,7 +296,46 @@ public class Utilities {
     {
         return map_DayPartForHour.get(partOfDay);
     }
-    
+    public static int getDistanceDayByRefDay(int refDay,int dayvalue)
+    {
+        switch (refDay) {
+            case 7:
+                if(dayvalue>=1 && dayvalue<=3)
+                    return dayvalue;
+                else
+                    return dayvalue-refDay;        
+            case 1:
+                if(dayvalue>=1 && dayvalue<=4)
+                    return dayvalue-refDay;
+                else
+                    return dayvalue-8; 
+            case 2:
+                if(dayvalue>=1 && dayvalue<=5)
+                    return dayvalue-refDay;
+                else 
+                    return dayvalue-9; 
+            case 3:
+                if(dayvalue!=7)
+                    return dayvalue-refDay;
+                else 
+                    return -3;
+            case 4:
+                if(dayvalue!=7)
+                    return dayvalue-refDay;
+                else 
+                    return 3; 
+            case 5:
+                if(dayvalue!=1)
+                    return dayvalue-refDay;
+                else 
+                    return 3; 
+            default:
+                if(dayvalue>=3 && dayvalue<=7)
+                    return dayvalue-refDay;
+                else
+                    return dayvalue+1;
+        }
+    }
     static boolean YearIsJalali(String Year) {
         int year = Integer.valueOf(Year);
         if((year>=40 && year<=99)||(year>=1340 && year<=1410))
@@ -410,7 +449,7 @@ public class Utilities {
             return true;
         return false;
     }
-
+    
     static String GetLastDayofMonthWithYear(String Year, String MonthNumber, String CalendarType) {
         int month = Integer.valueOf(MonthNumber);
         switch (CalendarType) {

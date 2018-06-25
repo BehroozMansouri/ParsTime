@@ -93,7 +93,9 @@ public class PatternManager {
                 String line = br.readLine();
                 while ((line=br.readLine())!= null)
                 {
-                    System.out.println(line);
+                    if(line.split("#").length<2)
+                        System.out.println(line);
+                        
                     result.put(line.split("#")[0],Integer.valueOf(line.split("#")[1]));
                 }
             }

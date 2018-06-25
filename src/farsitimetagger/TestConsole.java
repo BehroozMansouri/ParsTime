@@ -152,7 +152,7 @@ public class TestConsole {
             //List<String> temporalExpr = new ArrayList<String>();
             String textFile = ReadTextFile(file);
             //HashMap<String, Double> temp = fr.FindPatterns(textFile, "", temporalExpr);
-            List<String> temp = fr.FindTimeTags(textFile, "1370-12-12");
+            List<String> temp = fr.FindTimeTags(textFile, "1397-1-20");
             try (PrintWriter pw = new PrintWriter("E:\\TestData2\\" + file.getName())) {
                 for (String key : temp) {
                     pw.println(key);

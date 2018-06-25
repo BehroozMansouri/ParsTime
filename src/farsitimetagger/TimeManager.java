@@ -65,8 +65,210 @@ public class TimeManager extends TypeManger{
             case "TimeDayPartRelDay":
                 return TimeDayPartRelDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);  
             case "HourDay":
-                return HourDay(parameters.get(0),parameters.get(1),refDate);  
-            
+            {
+                try {
+                    return HourDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "HourDayDayPart":
+            {
+                try {
+                return HourDayDayPart(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "TimeDay":
+            {
+                try {
+                return TimeDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "TimeDayDayPart":
+            {
+                try {
+                return TimeDayDayPart(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "MinToHour":
+            {
+                return MinToHour(parameters.get(0),parameters.get(1),refDate);
+            }
+            case "MinToHourDayPart":
+            {
+                return MinToHourDayPart(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+            }
+            case "MinToHourRelDay":
+            {
+                try {
+                    return MinToHourRelDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                        Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "MinToHourDayPartRelDay":
+            {
+                try {
+                    return MinToHourDayPartRelDay(parameters.get(0),parameters.get(1),parameters.get(2),parameters.get(3),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "MinToHourDayPartDay":
+            {
+                try {
+                    return MinToHourDayPartDay(parameters.get(0),parameters.get(1),parameters.get(2),parameters.get(3),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "MinToHourDay":
+            {
+                try {
+                    return MinToHourDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                        Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "Quarter":
+            {
+                try {
+                    return Quarter(parameters.get(0),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterRelDay":
+            {
+                try {
+                    return QuarterRelDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterDay":
+            {
+                try {
+                    return QuarterDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterDayPart":
+            {
+                return QuarterDayPart(parameters.get(0),parameters.get(1),refDate);
+            }    
+            case "QuarterDayPartRelDay":
+            {
+                try {
+                    return QuarterDayPartRelDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterDayPartDay":
+            {
+                try {
+                    return QuarterDayPartDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+            case "Half":
+            {
+                try {
+                    return Half(parameters.get(0),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "HalfRelDay":
+            {
+                try {
+                    return HalfRelDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "HalfDay":
+            {
+                try {
+                    return HalfDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "HalfDayPart":
+            {
+                return HalfDayPart(parameters.get(0),parameters.get(1),refDate);
+            }    
+            case "HalfDayPartRelDay":
+            {
+                try {
+                    return HalfDayPartRelDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "HalfDayPartDay":
+            {
+                try {
+                    return HalfDayPartDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterTo":
+            {
+                try {
+                    return QuarterTo(parameters.get(0),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterToRelDay":
+            {
+                try {
+                    return QuarterToRelDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterToDay":
+            {
+                try {
+                    return QuarterToDay(parameters.get(0),parameters.get(1),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterToDayPart":
+            {
+                return QuarterToDayPart(parameters.get(0),parameters.get(1),refDate);
+            }    
+            case "QuarterToDayPartRelDay":
+            {
+                try {
+                    return QuarterToDayPartRelDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+            case "QuarterToDayPartDay":
+            {
+                try {
+                    return QuarterToDayPartDay(parameters.get(0),parameters.get(1),parameters.get(2),refDate);
+                } catch (ParseException ex) {
+                    Logger.getLogger(TimeManager.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }  
+                
             default:    
                 break;
         }
@@ -188,12 +390,191 @@ public class TimeManager extends TypeManger{
         }
         return TimeDayPart(time,dayPart,refDate);
     }
-
-    private String HourDay(String hour, String day, String refDate) {
+    
+    private String HourDay(String hour, String day, String refDate) throws ParseException {
         int dayvalue = Integer.valueOf(Utilities.GetDayValue(day));
         int refDay = RefrenceTimeTools.GetDay(refDate);
-        
-        return "";
+        int distance = Utilities.getDistanceDayByRefDay(refDay,dayvalue);
+        String val = RefrenceTimeTools.GetRefDay(refDate, distance);
+        return val+normalizeTime(hour);
     }
-                            
+    
+    private String HourDayDayPart(String hour, String dayPart, String day, String refDate) throws ParseException {
+        int dayvalue = Integer.valueOf(Utilities.GetDayValue(day));
+        int refDay = RefrenceTimeTools.GetDay(refDate);
+        int distance = Utilities.getDistanceDayByRefDay(refDay,dayvalue);
+        String date = RefrenceTimeTools.GetRefDay(refDate, distance);
+        hour = HourByDayPart(hour,dayPart);       
+        return date+normalizeTime(hour);
+    }
+    
+    private String TimeDay(String time, String day, String refDate) throws ParseException {
+        int dayvalue = Integer.valueOf(Utilities.GetDayValue(day));
+        int refDay = RefrenceTimeTools.GetDay(refDate);
+        int distance = Utilities.getDistanceDayByRefDay(refDay,dayvalue);
+        String date = RefrenceTimeTools.GetRefDay(refDate, distance);
+        return JustTime(time,date);
+    }
+    
+    private String TimeDayDayPart(String time, String dayPart, String day, String refDate) throws ParseException {
+        String hour = time.split(":")[0];
+        hour = HourByDayPart(hour,dayPart);
+        return TimeDay(hour+time.substring(time.indexOf(":")),day,refDate);
+    }
+    
+    private String MinToHour(String min, String hour, String refDate)
+    {
+        return JustTime(MakeTimForRemain(min,hour),refDate);
+    }
+    
+    private String MinToHourDayPart(String min, String hour, String dayPart, String refDate)
+    {
+        return TimeDayPart(MakeTimForRemain(min,hour),dayPart,refDate);
+    }
+    
+    private String MinToHourRelDay(String min, String hour, String relDay, String refDate) throws ParseException
+    {
+        return TimeRelDay(MakeTimForRemain(min,hour),relDay,refDate);
+    }
+    
+    private String MinToHourDayPartRelDay(String min, String hour, String dayPart, String relDay, String refDate) throws ParseException
+    {
+        return TimeDayPartRelDay(MakeTimForRemain(min,hour),dayPart,relDay,refDate);
+    }
+    
+    private String MinToHourDay(String min, String hour, String day, String refDate) throws ParseException
+    {
+        return TimeDay(MakeTimForRemain(min,hour),day,refDate);
+    }
+    
+    private String MinToHourDayPartDay(String min, String hour, String dayPart, String day, String refDate) throws ParseException
+    {
+        return TimeDayDayPart(MakeTimForRemain(min,hour),dayPart,day,refDate);
+    }
+    
+    private String Quarter(String hour, String refDate) throws ParseException
+    {
+        return JustTime(MakeQuarterTime(hour),refDate);
+    }
+    
+    private String QuarterDayPart(String hour, String dayPart, String refDate)
+    {
+        return TimeDayPart(MakeQuarterTime(hour),dayPart,refDate);
+    }
+    
+    private String QuarterRelDay(String hour, String relDay, String refDate) throws ParseException
+    {
+        return TimeRelDay(MakeQuarterTime(hour),relDay,refDate);
+    }
+    
+    private String QuarterDayPartRelDay(String hour, String dayPart, String relDay, String refDate) throws ParseException
+    {
+        return TimeDayPartRelDay(MakeQuarterTime(hour),dayPart,relDay,refDate);
+    }
+    
+    private String QuarterDay(String hour, String day, String refDate) throws ParseException
+    {
+        return TimeDay(MakeQuarterTime(hour),day,refDate);
+    }
+    
+    private String QuarterDayPartDay(String hour, String dayPart, String day, String refDate) throws ParseException
+    {
+        return TimeDayDayPart(MakeQuarterTime(hour),dayPart,day,refDate);
+    }
+
+    private String Half(String hour, String refDate) throws ParseException
+    {
+        return JustTime(MakeHalfTime(hour),refDate);
+    }
+    
+    private String HalfDayPart(String hour, String dayPart, String refDate)
+    {
+        return TimeDayPart(MakeHalfTime(hour),dayPart,refDate);
+    }
+    
+    private String HalfRelDay(String hour, String relDay, String refDate) throws ParseException
+    {
+        return TimeRelDay(MakeHalfTime(hour),relDay,refDate);
+    }
+    
+    private String HalfDayPartRelDay(String hour, String dayPart, String relDay, String refDate) throws ParseException
+    {
+        return TimeDayPartRelDay(MakeHalfTime(hour),dayPart,relDay,refDate);
+    }
+    
+    private String HalfDay(String hour, String day, String refDate) throws ParseException
+    {
+        return TimeDay(MakeHalfTime(hour),day,refDate);
+    }
+    
+    private String HalfDayPartDay(String hour, String dayPart, String day, String refDate) throws ParseException
+    {
+        return TimeDayDayPart(MakeHalfTime(hour),dayPart,day,refDate);
+    }
+    
+    private String QuarterTo(String hour, String refDate) throws ParseException
+    {
+        return JustTime(MakeTimeForQuarterTo(hour),refDate);
+    }
+    
+    private String QuarterToDayPart(String hour, String dayPart, String refDate)
+    {
+        return TimeDayPart(MakeTimeForQuarterTo(hour),dayPart,refDate);
+    }
+    
+    private String QuarterToRelDay(String hour, String relDay, String refDate) throws ParseException
+    {
+        return TimeRelDay(MakeTimeForQuarterTo(hour),relDay,refDate);
+    }
+    
+    private String QuarterToDayPartRelDay(String hour, String dayPart, String relDay, String refDate) throws ParseException
+    {
+        return TimeDayPartRelDay(MakeTimeForQuarterTo(hour),dayPart,relDay,refDate);
+    }
+    
+    private String QuarterToDay(String hour, String day, String refDate) throws ParseException
+    {
+        return TimeDay(MakeTimeForQuarterTo(hour),day,refDate);
+    }
+    
+    private String QuarterToDayPartDay(String hour, String dayPart, String day, String refDate) throws ParseException
+    {
+        return TimeDayDayPart(MakeTimeForQuarterTo(hour),dayPart,day,refDate);
+    }
+    
+    private String MakeTimForRemain(String min, String hour)
+    {
+        int minutes = 0;
+        minutes = 60 - Integer.valueOf(min);
+        int ho = Integer.valueOf(hour);
+        
+        if(ho==0)
+            ho=23;
+        else
+            ho -=1;
+        return ho+":"+minutes;
+    }
+    private String MakeQuarterTime(String hour)
+    {
+        int minutes = 15;
+        int ho = Integer.valueOf(hour);
+        return ho+":"+minutes;
+    }
+    private String MakeHalfTime(String hour)
+    {
+        int minutes = 30;
+        int ho = Integer.valueOf(hour);
+        return ho+":"+minutes;
+    }
+    private String MakeTimeForQuarterTo(String hour)
+    {
+        int minutes = 45;
+        int ho = Integer.valueOf(hour);
+        
+        if(ho==0)
+            ho=23;
+        else
+            ho -=1;
+        return ho+":"+minutes;
+    }
 }

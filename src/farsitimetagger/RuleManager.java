@@ -30,6 +30,7 @@ public class RuleManager {
     public RuleManager() throws IOException
     {
         ruleMap = new HashMap<Integer,String>();
+        RuleUtilities.Initialize();
         for(File file : new File(new File("").getAbsolutePath()+"\\"+ruleDirectory).listFiles())
         try(BufferedReader br = new BufferedReader(new InputStreamReader(new FileInputStream(file),"UTF-8")))
         {
@@ -62,6 +63,8 @@ public class RuleManager {
                 return tm.CallFunction(refDate, funcName, funcElements);
             case "DURATION":
                 return dum.CallFunction(refDate, funcName, funcElements);
+//            case "DURATION":
+//                return dum.CallFunction(refDate, funcName, funcElements);
             default:
                 return sm.CallFunction(refDate, funcName, funcElements);
         }

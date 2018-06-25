@@ -32,23 +32,21 @@ Num دقیقه به Num RD#424
 Num دقیقه به Num DP RD#425
 Num دقیقه به Num Day#434
 Num دقیقه به Num DP Day#435
-ساعت Num  و ربع#438
-ساعت Num  و ربع RD#439
-ساعت Num  و ربع Day#440
-ساعت Num  و ربع DP#443
-ساعت Num  و ربع DP RD#444
-ساعت Num  و ربع DP Day#445
-ساعت Num  و نیم #447
-ساعت Num  و نیم RD#448
-ساعت Num  و نیم Day#449
-ساعت Num  و نیم DP#451
-ساعت Num  و نیم DP RD#452
-ساعت Num  و نیم DP Day#453
-ساعت یک ربع به Num#455
-ساعت یک ربع به Num RD#456
-ساعت یک ربع به Num Day#457
-ساعت یک ربع به Num DP#459
-ساعت یک ربع به Num DP RD#460
-ساعت یک ربع به Num DP Day#461
-DP روز Past Num Month Num#464
-روز Day Date ساعت Num DP#465
+ساعت Num و ربع#438
+ساعت Num و ربع RD#439
+ساعت Num و ربع Day#440
+ساعت Num و ربع DP#443
+ساعت Num و ربع DP RD#444
+ساعت Num و ربع DP Day#445
+ساعت Num و نیم#447
+ساعت Num و نیم RD#448
+ساعت Num و نیم Day#449
+ساعت Num و نیم DP#451
+ساعت Num و نیم DP RD#452
+ساعت Num و نیم DP Day#453
+ساعت Num ربع به Num#455
+ساعت Num ربع به Num RD#456
+ساعت Num ربع به Num Day#457
+ساعت Num ربع به Num DP#459
+ساعت Num ربع به Num DP RD#460
+ساعت Num ربع به Num DP Day#461
